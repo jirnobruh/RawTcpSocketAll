@@ -10,12 +10,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("RawTcpSniffer")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("RawSocket.Server")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d9b587c2928a8e20d2fb1eb8d524c4d63a7f98be")]
-[assembly: System.Reflection.AssemblyProductAttribute("RawTcpSniffer")]
-[assembly: System.Reflection.AssemblyTitleAttribute("RawTcpSniffer")]
+[assembly: System.Reflection.AssemblyProductAttribute("RawSocket.Server")]
+[assembly: System.Reflection.AssemblyTitleAttribute("RawSocket.Server")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 
 // Создано классом WriteCodeFragment MSBuild.
