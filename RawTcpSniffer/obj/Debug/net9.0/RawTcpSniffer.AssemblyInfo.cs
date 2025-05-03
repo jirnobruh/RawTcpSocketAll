@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RawTcpSniffer")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a702c96d63d53be27559750b761eb96acd945dd2")]
 [assembly: System.Reflection.AssemblyProductAttribute("RawTcpSniffer")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RawTcpSniffer")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

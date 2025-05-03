@@ -12,8 +12,6 @@ public class RawTcpSniffer : IDisposable
     public IPEndPoint LocalEndPoint { get; }
     private Thread _captureThread;
 
-            
-
     public void Start()
     {
         _device.Open(DeviceModes.Promiscuous, 1000);

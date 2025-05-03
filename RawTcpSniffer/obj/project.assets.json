@@ -2,16 +2,16 @@
   "version": 3,
   "targets": {
     "net9.0": {
-      "PacketDotNet/1.4.7": {
+      "PacketDotNet/1.4.9-pre35": {
         "type": "package",
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.1/PacketDotNet.dll": {}
+          "lib/net9.0/PacketDotNet.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.1/PacketDotNet.dll": {}
+          "lib/net9.0/PacketDotNet.dll": {}
         }
       },
       "SharpPcap/6.3.0": {
@@ -81,17 +81,17 @@
     }
   },
   "libraries": {
-    "PacketDotNet/1.4.7": {
-      "sha512": "xh4MGjkDFhJfFtAr6IEwg3ocPm3TO0/AxbYeCVoh9BaVT0xeWJB1p0nwKQ9olsQiQtSqF8M0UXz97U2VnOYY0w==",
+    "PacketDotNet/1.4.9-pre35": {
+      "sha512": "eLx73xlibY487pwNizLMNZ5I9P2B28k3HPYqiGotUENZBPbkOW+9oYT0E68FWLh3m05rfTOlsFgrsOCRYONOFQ==",
       "type": "package",
-      "path": "packetdotnet/1.4.7",
+      "path": "packetdotnet/1.4.9-pre35",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net47/PacketDotNet.dll",
-        "lib/netstandard2.0/PacketDotNet.dll",
-        "lib/netstandard2.1/PacketDotNet.dll",
-        "packetdotnet.1.4.7.nupkg.sha512",
+        "lib/net472/PacketDotNet.dll",
+        "lib/net8.0/PacketDotNet.dll",
+        "lib/net9.0/PacketDotNet.dll",
+        "packetdotnet.1.4.9-pre35.nupkg.sha512",
         "packetdotnet.nuspec"
       ]
     },
@@ -197,6 +197,7 @@
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "PacketDotNet >= 1.4.9-pre35",
       "SharpPcap >= 6.3.0"
     ]
   },
@@ -251,6 +252,10 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
+          "PacketDotNet": {
+            "target": "Package",
+            "version": "[1.4.9-pre35, )"
+          },
           "SharpPcap": {
             "target": "Package",
             "version": "[6.3.0, )"
