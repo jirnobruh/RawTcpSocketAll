@@ -16,3 +16,4 @@ C:\OAandP\rider\RawTcpSniffer\RawTcpSniffer\obj\Debug\net9.0\refint\RawTcpSniffe
 C:\OAandP\rider\RawTcpSniffer\RawTcpSniffer\obj\Debug\net9.0\RawTcpSniffer.pdb
 C:\OAandP\rider\RawTcpSniffer\RawTcpSniffer\obj\Debug\net9.0\RawTcpSniffer.genruntimeconfig.cache
 C:\OAandP\rider\RawTcpSniffer\RawTcpSniffer\obj\Debug\net9.0\ref\RawTcpSniffer.dll
+C:\OAandP\rider\RawTcpSniffer\RawTcpSniffer\obj\Debug\net9.0\RawTcpSniffer.sourcelink.json
